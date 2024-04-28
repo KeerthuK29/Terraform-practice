@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: ''
+                git branch: 'master', url: 'https://github.com/KeerthuK29/Terraform-practice.git'
             }
         }
         stage('Run Terraform') {
